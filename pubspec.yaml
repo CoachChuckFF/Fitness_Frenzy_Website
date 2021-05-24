@@ -1,0 +1,68 @@
+name: fitnessFrenzyWebsite
+description: Landing Page.
+version: 1.0.0+0
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+## Helper
+  url_launcher: ^5.7.10
+  flutter_launcher_icons: ^0.8.1
+  uuid: ^2.0.4
+  clipboard: ^0.1.2
+
+## State Managemnt
+  provider: ^4.3.2
+  flutter_bloc: ^6.1.1
+  bloc: ^6.1.1
+
+## Firebase
+  #sometimes you need to run: pod repo update && pod install
+  # firebase_core: ^0.5.3
+  # firebase_analytics: ^6.3.0
+  # firebase_auth: ^0.18.4+1
+  # firebase_storage: ^5.2.0
+  # cloud_firestore: ^0.14.4
+  # cloud_functions: ^0.7.2
+
+  # firebase_dynamic_links: ^0.5.0+11
+
+  # google_sign_in: ^4.4.2
+  # apple_sign_in: ^0.1.0
+ 
+#Frontend Dependencies
+  auto_size_text: ^2.1.0
+  simple_animations: ^2.4.2
+  screen: ^0.0.5
+  table_calendar: ^2.3.0
+  flutter_tags: ^0.4.9
+
+#Payment Dependencies
+  purchases_flutter: ^1.4.3
+
+#Debug Dependancies
+  colorize: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  font_awesome_flutter:
+    path: ./font_awesome_flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/logos/
+    - assets/images/icons/
+    - assets/images/exercises/
+    - assets/images/funnel/
+    - assets/sounds/
